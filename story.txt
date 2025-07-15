@@ -1,0 +1,5 @@
+In the <adjective1> land of <place>, a <animal> was feeling <emotion>. The <animal> ventured about.
+
+Suddenly a <character> appeared. 'I will help you find your <object>,' they said.
+
+Together, they journeyd through <terrain> and faced the <weather_condition>.

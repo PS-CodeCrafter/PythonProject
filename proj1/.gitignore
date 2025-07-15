@@ -1,0 +1,3 @@
+#this file is used to ignore files that we don't want to upload
+*.key
+passwords.txt
