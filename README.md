@@ -1,6 +1,4 @@
-# Practice
-
-This is the first line in the README file. 
+GIT COMMANDS
 
 ## Git Reset Hard
 ### Use got reset command to discard local changes and bring local to Head of origin/main
