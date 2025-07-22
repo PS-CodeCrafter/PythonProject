@@ -1,0 +1,5 @@
+The quick brown fox jumps over the lazy dog.
+Python is a fun programming language.
+Typing is a useful skill for everyone.
+I like learning new things.
+This is an easy typing test.
