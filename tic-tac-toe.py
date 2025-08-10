@@ -98,7 +98,6 @@ class HumanPlayer:
 
     def get_move(self, game):
         valid_square = False
-        val = None
         while not valid_square:
             try:
                 square = int(input(f'{self.letter}\'s turn. Input move (0-8): '))
