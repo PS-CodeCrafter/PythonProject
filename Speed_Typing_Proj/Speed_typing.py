@@ -96,7 +96,7 @@ def main(stdscr):
         wpm, accuracy = wpm_test(stdscr, target)
 
         stdscr.clear()
-        stdscr.addstr(f"\nFinished!\n")
+        stdscr.addstr("\nFinished!\n")
         stdscr.addstr(f"Your WPM: {wpm}\n")
         stdscr.addstr(f"Accuracy: {accuracy:.2f}%\n")
         stdscr.addstr("Press 'r' to retry or ESC to quit.")
