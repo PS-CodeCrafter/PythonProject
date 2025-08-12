@@ -64,3 +64,29 @@ jobs:
               python "$candidate" || echo "⚠️ $candidate exited with an error"
             fi
           done
+
+  run-tests:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        python-version: [3.9]
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python ${{ matrix.python-version }}
+        uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+
+      - name: Install dependencies for tests (if any)
+        run: |
+          python -m pip install --upgrade pip
+          # Add your test dependencies here, e.g.
+          # pip install -r requirements-test.txt
+
+      - name: Run tests in Tests folder
+        run: |
+          python -m unittest discover -s Tests -p "*.py"
